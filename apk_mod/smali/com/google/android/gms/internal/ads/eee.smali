@@ -1,0 +1,48 @@
+.class final synthetic Lcom/google/android/gms/internal/ads/eee;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/google/android/gms/internal/ads/cfr;
+
+
+# instance fields
+.field private final a:Lcom/google/android/gms/internal/ads/edo;
+
+
+# direct methods
+.method constructor <init>(Lcom/google/android/gms/internal/ads/edo;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/google/android/gms/internal/ads/eee;->a:Lcom/google/android/gms/internal/ads/edo;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(Ljava/lang/Object;)V
+    .locals 2
+
+    iget-object v0, p0, Lcom/google/android/gms/internal/ads/eee;->a:Lcom/google/android/gms/internal/ads/edo;
+
+    .line 1
+    check-cast p1, Lcom/google/android/gms/internal/ads/eej;
+
+    invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/edo;->a()Ljava/lang/Object;
+
+    move-result-object v1
+
+    invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/edo;->b()Ljava/lang/String;
+
+    move-result-object v0
+
+    check-cast v1, Lcom/google/android/gms/internal/ads/eec;
+
+    .line 2
+    invoke-interface {p1, v1, v0}, Lcom/google/android/gms/internal/ads/eej;->b(Lcom/google/android/gms/internal/ads/eec;Ljava/lang/String;)V
+
+    return-void
+.end method

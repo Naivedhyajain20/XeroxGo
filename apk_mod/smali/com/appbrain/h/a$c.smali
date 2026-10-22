@@ -1,0 +1,1253 @@
+.class public final Lcom/appbrain/h/a$c;
+.super Lcom/appbrain/e/q;
+
+# interfaces
+.implements Lcom/appbrain/h/a$d;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/appbrain/h/a;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "c"
+.end annotation
+
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/appbrain/h/a$c$a;
+    }
+.end annotation
+
+
+# static fields
+.field private static final m:Lcom/appbrain/h/a$c;
+
+.field private static volatile n:Lcom/appbrain/e/aa;
+
+
+# instance fields
+.field private d:I
+
+.field private e:Ljava/lang/String;
+
+.field private f:I
+
+.field private g:J
+
+.field private h:I
+
+.field private i:Ljava/lang/String;
+
+.field private j:J
+
+.field private k:I
+
+.field private l:Lcom/appbrain/e/s$d;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    new-instance v0, Lcom/appbrain/h/a$c;
+
+    invoke-direct {v0}, Lcom/appbrain/h/a$c;-><init>()V
+
+    sput-object v0, Lcom/appbrain/h/a$c;->m:Lcom/appbrain/h/a$c;
+
+    invoke-virtual {v0}, Lcom/appbrain/h/a$c;->n()V
+
+    return-void
+.end method
+
+.method private constructor <init>()V
+    .locals 1
+
+    invoke-direct {p0}, Lcom/appbrain/e/q;-><init>()V
+
+    const-string v0, ""
+
+    iput-object v0, p0, Lcom/appbrain/h/a$c;->e:Ljava/lang/String;
+
+    iput-object v0, p0, Lcom/appbrain/h/a$c;->i:Ljava/lang/String;
+
+    invoke-static {}, Lcom/appbrain/h/a$c;->q()Lcom/appbrain/e/s$d;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lcom/appbrain/h/a$c;->l:Lcom/appbrain/e/s$d;
+
+    return-void
+.end method
+
+.method static synthetic a(Lcom/appbrain/h/a$c;I)V
+    .locals 1
+
+    iget v0, p0, Lcom/appbrain/h/a$c;->d:I
+
+    or-int/lit8 v0, v0, 0x2
+
+    iput v0, p0, Lcom/appbrain/h/a$c;->d:I
+
+    iput p1, p0, Lcom/appbrain/h/a$c;->f:I
+
+    return-void
+.end method
+
+.method static synthetic a(Lcom/appbrain/h/a$c;J)V
+    .locals 1
+
+    iget v0, p0, Lcom/appbrain/h/a$c;->d:I
+
+    or-int/lit8 v0, v0, 0x4
+
+    iput v0, p0, Lcom/appbrain/h/a$c;->d:I
+
+    iput-wide p1, p0, Lcom/appbrain/h/a$c;->g:J
+
+    return-void
+.end method
+
+.method static synthetic a(Lcom/appbrain/h/a$c;Ljava/lang/String;)V
+    .locals 1
+
+    invoke-static {p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
+
+    iget v0, p0, Lcom/appbrain/h/a$c;->d:I
+
+    or-int/lit8 v0, v0, 0x1
+
+    iput v0, p0, Lcom/appbrain/h/a$c;->d:I
+
+    iput-object p1, p0, Lcom/appbrain/h/a$c;->e:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method static synthetic b(Lcom/appbrain/h/a$c;I)V
+    .locals 1
+
+    iget v0, p0, Lcom/appbrain/h/a$c;->d:I
+
+    or-int/lit8 v0, v0, 0x8
+
+    iput v0, p0, Lcom/appbrain/h/a$c;->d:I
+
+    iput p1, p0, Lcom/appbrain/h/a$c;->h:I
+
+    return-void
+.end method
+
+.method static synthetic b(Lcom/appbrain/h/a$c;Ljava/lang/String;)V
+    .locals 1
+
+    invoke-static {p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
+
+    iget v0, p0, Lcom/appbrain/h/a$c;->d:I
+
+    or-int/lit8 v0, v0, 0x10
+
+    iput v0, p0, Lcom/appbrain/h/a$c;->d:I
+
+    iput-object p1, p0, Lcom/appbrain/h/a$c;->i:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method public static c()Lcom/appbrain/h/a$c$a;
+    .locals 1
+
+    sget-object v0, Lcom/appbrain/h/a$c;->m:Lcom/appbrain/h/a$c;
+
+    invoke-virtual {v0}, Lcom/appbrain/h/a$c;->p()Lcom/appbrain/e/q$a;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/appbrain/h/a$c$a;
+
+    return-object v0
+.end method
+
+.method public static e()Lcom/appbrain/e/aa;
+    .locals 1
+
+    sget-object v0, Lcom/appbrain/h/a$c;->m:Lcom/appbrain/h/a$c;
+
+    invoke-virtual {v0}, Lcom/appbrain/h/a$c;->l()Lcom/appbrain/e/aa;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method static synthetic f()Lcom/appbrain/h/a$c;
+    .locals 1
+
+    sget-object v0, Lcom/appbrain/h/a$c;->m:Lcom/appbrain/h/a$c;
+
+    return-object v0
+.end method
+
+.method private g()Z
+    .locals 2
+
+    iget v0, p0, Lcom/appbrain/h/a$c;->d:I
+
+    const/4 v1, 0x1
+
+    and-int/2addr v0, v1
+
+    if-ne v0, v1, :cond_0
+
+    return v1
+
+    :cond_0
+    const/4 v0, 0x0
+
+    return v0
+.end method
+
+.method private h()Z
+    .locals 2
+
+    iget v0, p0, Lcom/appbrain/h/a$c;->d:I
+
+    const/4 v1, 0x2
+
+    and-int/2addr v0, v1
+
+    if-ne v0, v1, :cond_0
+
+    const/4 v0, 0x1
+
+    return v0
+
+    :cond_0
+    const/4 v0, 0x0
+
+    return v0
+.end method
+
+.method private i()Z
+    .locals 2
+
+    iget v0, p0, Lcom/appbrain/h/a$c;->d:I
+
+    const/4 v1, 0x4
+
+    and-int/2addr v0, v1
+
+    if-ne v0, v1, :cond_0
+
+    const/4 v0, 0x1
+
+    return v0
+
+    :cond_0
+    const/4 v0, 0x0
+
+    return v0
+.end method
+
+.method private v()Z
+    .locals 2
+
+    iget v0, p0, Lcom/appbrain/h/a$c;->d:I
+
+    const/16 v1, 0x10
+
+    and-int/2addr v0, v1
+
+    if-ne v0, v1, :cond_0
+
+    const/4 v0, 0x1
+
+    return v0
+
+    :cond_0
+    const/4 v0, 0x0
+
+    return v0
+.end method
+
+.method private w()Z
+    .locals 2
+
+    iget v0, p0, Lcom/appbrain/h/a$c;->d:I
+
+    const/16 v1, 0x20
+
+    and-int/2addr v0, v1
+
+    if-ne v0, v1, :cond_0
+
+    const/4 v0, 0x1
+
+    return v0
+
+    :cond_0
+    const/4 v0, 0x0
+
+    return v0
+.end method
+
+.method private x()Z
+    .locals 2
+
+    iget v0, p0, Lcom/appbrain/h/a$c;->d:I
+
+    const/16 v1, 0x40
+
+    and-int/2addr v0, v1
+
+    if-ne v0, v1, :cond_0
+
+    const/4 v0, 0x1
+
+    return v0
+
+    :cond_0
+    const/4 v0, 0x0
+
+    return v0
+.end method
+
+
+# virtual methods
+.method protected final a(Lcom/appbrain/e/q$i;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 7
+
+    sget-object v0, Lcom/appbrain/h/a$1;->a:[I
+
+    invoke-virtual {p1}, Lcom/appbrain/e/q$i;->ordinal()I
+
+    move-result p1
+
+    aget p1, v0, p1
+
+    const/4 v0, 0x0
+
+    packed-switch p1, :pswitch_data_0
+
+    new-instance p1, Ljava/lang/UnsupportedOperationException;
+
+    invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
+
+    throw p1
+
+    :pswitch_0
+    sget-object p1, Lcom/appbrain/h/a$c;->n:Lcom/appbrain/e/aa;
+
+    if-nez p1, :cond_1
+
+    const-class p1, Lcom/appbrain/h/a$c;
+
+    monitor-enter p1
+
+    :try_start_0
+    sget-object p2, Lcom/appbrain/h/a$c;->n:Lcom/appbrain/e/aa;
+
+    if-nez p2, :cond_0
+
+    new-instance p2, Lcom/appbrain/e/q$b;
+
+    sget-object p3, Lcom/appbrain/h/a$c;->m:Lcom/appbrain/h/a$c;
+
+    invoke-direct {p2, p3}, Lcom/appbrain/e/q$b;-><init>(Lcom/appbrain/e/q;)V
+
+    sput-object p2, Lcom/appbrain/h/a$c;->n:Lcom/appbrain/e/aa;
+
+    :cond_0
+    monitor-exit p1
+
+    goto :goto_0
+
+    :catchall_0
+    move-exception p2
+
+    monitor-exit p1
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    throw p2
+
+    :cond_1
+    :goto_0
+    sget-object p1, Lcom/appbrain/h/a$c;->n:Lcom/appbrain/e/aa;
+
+    return-object p1
+
+    :pswitch_1
+    check-cast p2, Lcom/appbrain/e/k;
+
+    const/4 p1, 0x1
+
+    :cond_2
+    :goto_1
+    if-nez v0, :cond_10
+
+    :try_start_1
+    invoke-virtual {p2}, Lcom/appbrain/e/k;->a()I
+
+    move-result p3
+
+    if-eqz p3, :cond_f
+
+    const/16 v1, 0xa
+
+    if-eq p3, v1, :cond_e
+
+    const/16 v1, 0x10
+
+    if-eq p3, v1, :cond_d
+
+    const/16 v2, 0x18
+
+    if-eq p3, v2, :cond_c
+
+    const/16 v2, 0x20
+
+    if-eq p3, v2, :cond_b
+
+    const/16 v3, 0x2a
+
+    if-eq p3, v3, :cond_a
+
+    const/16 v1, 0x30
+
+    if-eq p3, v1, :cond_9
+
+    const/16 v1, 0x38
+
+    const/16 v2, 0x40
+
+    if-eq p3, v1, :cond_8
+
+    if-eq p3, v2, :cond_6
+
+    const/16 v1, 0x42
+
+    if-eq p3, v1, :cond_3
+
+    invoke-virtual {p0, p3, p2}, Lcom/appbrain/h/a$c;->a(ILcom/appbrain/e/k;)Z
+
+    move-result p3
+
+    if-nez p3, :cond_2
+
+    goto/16 :goto_3
+
+    :cond_3
+    invoke-virtual {p2}, Lcom/appbrain/e/k;->l()I
+
+    move-result p3
+
+    invoke-virtual {p2, p3}, Lcom/appbrain/e/k;->b(I)I
+
+    move-result p3
+
+    iget-object v1, p0, Lcom/appbrain/h/a$c;->l:Lcom/appbrain/e/s$d;
+
+    invoke-interface {v1}, Lcom/appbrain/e/s$d;->a()Z
+
+    move-result v1
+
+    if-nez v1, :cond_4
+
+    invoke-virtual {p2}, Lcom/appbrain/e/k;->m()I
+
+    move-result v1
+
+    if-lez v1, :cond_4
+
+    iget-object v1, p0, Lcom/appbrain/h/a$c;->l:Lcom/appbrain/e/s$d;
+
+    invoke-static {v1}, Lcom/appbrain/e/q;->a(Lcom/appbrain/e/s$d;)Lcom/appbrain/e/s$d;
+
+    move-result-object v1
+
+    iput-object v1, p0, Lcom/appbrain/h/a$c;->l:Lcom/appbrain/e/s$d;
+
+    :cond_4
+    :goto_2
+    invoke-virtual {p2}, Lcom/appbrain/e/k;->m()I
+
+    move-result v1
+
+    if-lez v1, :cond_5
+
+    iget-object v1, p0, Lcom/appbrain/h/a$c;->l:Lcom/appbrain/e/s$d;
+
+    invoke-virtual {p2}, Lcom/appbrain/e/k;->e()I
+
+    move-result v2
+
+    invoke-interface {v1, v2}, Lcom/appbrain/e/s$d;->d(I)V
+
+    goto :goto_2
+
+    :cond_5
+    invoke-virtual {p2, p3}, Lcom/appbrain/e/k;->c(I)V
+
+    goto :goto_1
+
+    :cond_6
+    iget-object p3, p0, Lcom/appbrain/h/a$c;->l:Lcom/appbrain/e/s$d;
+
+    invoke-interface {p3}, Lcom/appbrain/e/s$d;->a()Z
+
+    move-result p3
+
+    if-nez p3, :cond_7
+
+    iget-object p3, p0, Lcom/appbrain/h/a$c;->l:Lcom/appbrain/e/s$d;
+
+    invoke-static {p3}, Lcom/appbrain/e/q;->a(Lcom/appbrain/e/s$d;)Lcom/appbrain/e/s$d;
+
+    move-result-object p3
+
+    iput-object p3, p0, Lcom/appbrain/h/a$c;->l:Lcom/appbrain/e/s$d;
+
+    :cond_7
+    iget-object p3, p0, Lcom/appbrain/h/a$c;->l:Lcom/appbrain/e/s$d;
+
+    invoke-virtual {p2}, Lcom/appbrain/e/k;->e()I
+
+    move-result v1
+
+    invoke-interface {p3, v1}, Lcom/appbrain/e/s$d;->d(I)V
+
+    goto :goto_1
+
+    :cond_8
+    iget p3, p0, Lcom/appbrain/h/a$c;->d:I
+
+    or-int/2addr p3, v2
+
+    iput p3, p0, Lcom/appbrain/h/a$c;->d:I
+
+    invoke-virtual {p2}, Lcom/appbrain/e/k;->e()I
+
+    move-result p3
+
+    iput p3, p0, Lcom/appbrain/h/a$c;->k:I
+
+    goto/16 :goto_1
+
+    :cond_9
+    iget p3, p0, Lcom/appbrain/h/a$c;->d:I
+
+    or-int/2addr p3, v2
+
+    iput p3, p0, Lcom/appbrain/h/a$c;->d:I
+
+    invoke-virtual {p2}, Lcom/appbrain/e/k;->d()J
+
+    move-result-wide v1
+
+    iput-wide v1, p0, Lcom/appbrain/h/a$c;->j:J
+
+    goto/16 :goto_1
+
+    :cond_a
+    invoke-virtual {p2}, Lcom/appbrain/e/k;->i()Ljava/lang/String;
+
+    move-result-object p3
+
+    iget v2, p0, Lcom/appbrain/h/a$c;->d:I
+
+    or-int/2addr v1, v2
+
+    iput v1, p0, Lcom/appbrain/h/a$c;->d:I
+
+    iput-object p3, p0, Lcom/appbrain/h/a$c;->i:Ljava/lang/String;
+
+    goto/16 :goto_1
+
+    :cond_b
+    iget p3, p0, Lcom/appbrain/h/a$c;->d:I
+
+    or-int/lit8 p3, p3, 0x8
+
+    iput p3, p0, Lcom/appbrain/h/a$c;->d:I
+
+    invoke-virtual {p2}, Lcom/appbrain/e/k;->e()I
+
+    move-result p3
+
+    iput p3, p0, Lcom/appbrain/h/a$c;->h:I
+
+    goto/16 :goto_1
+
+    :cond_c
+    iget p3, p0, Lcom/appbrain/h/a$c;->d:I
+
+    or-int/lit8 p3, p3, 0x4
+
+    iput p3, p0, Lcom/appbrain/h/a$c;->d:I
+
+    invoke-virtual {p2}, Lcom/appbrain/e/k;->d()J
+
+    move-result-wide v1
+
+    iput-wide v1, p0, Lcom/appbrain/h/a$c;->g:J
+
+    goto/16 :goto_1
+
+    :cond_d
+    iget p3, p0, Lcom/appbrain/h/a$c;->d:I
+
+    or-int/lit8 p3, p3, 0x2
+
+    iput p3, p0, Lcom/appbrain/h/a$c;->d:I
+
+    invoke-virtual {p2}, Lcom/appbrain/e/k;->e()I
+
+    move-result p3
+
+    iput p3, p0, Lcom/appbrain/h/a$c;->f:I
+
+    goto/16 :goto_1
+
+    :cond_e
+    invoke-virtual {p2}, Lcom/appbrain/e/k;->i()Ljava/lang/String;
+
+    move-result-object p3
+
+    iget v1, p0, Lcom/appbrain/h/a$c;->d:I
+
+    or-int/2addr v1, p1
+
+    iput v1, p0, Lcom/appbrain/h/a$c;->d:I
+
+    iput-object p3, p0, Lcom/appbrain/h/a$c;->e:Ljava/lang/String;
+    :try_end_1
+    .catch Lcom/appbrain/e/t; {:try_start_1 .. :try_end_1} :catch_1
+    .catch Ljava/io/IOException; {:try_start_1 .. :try_end_1} :catch_0
+    .catchall {:try_start_1 .. :try_end_1} :catchall_1
+
+    goto/16 :goto_1
+
+    :cond_f
+    :goto_3
+    const/4 v0, 0x1
+
+    goto/16 :goto_1
+
+    :catchall_1
+    move-exception p1
+
+    goto :goto_4
+
+    :catch_0
+    move-exception p1
+
+    :try_start_2
+    new-instance p2, Ljava/lang/RuntimeException;
+
+    new-instance p3, Lcom/appbrain/e/t;
+
+    invoke-virtual {p1}, Ljava/io/IOException;->getMessage()Ljava/lang/String;
+
+    move-result-object p1
+
+    invoke-direct {p3, p1}, Lcom/appbrain/e/t;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {p3, p0}, Lcom/appbrain/e/t;->a(Lcom/appbrain/e/x;)Lcom/appbrain/e/t;
+
+    move-result-object p1
+
+    invoke-direct {p2, p1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/Throwable;)V
+
+    throw p2
+
+    :catch_1
+    move-exception p1
+
+    new-instance p2, Ljava/lang/RuntimeException;
+
+    invoke-virtual {p1, p0}, Lcom/appbrain/e/t;->a(Lcom/appbrain/e/x;)Lcom/appbrain/e/t;
+
+    move-result-object p1
+
+    invoke-direct {p2, p1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/Throwable;)V
+
+    throw p2
+    :try_end_2
+    .catchall {:try_start_2 .. :try_end_2} :catchall_1
+
+    :goto_4
+    throw p1
+
+    :cond_10
+    :pswitch_2
+    sget-object p1, Lcom/appbrain/h/a$c;->m:Lcom/appbrain/h/a$c;
+
+    return-object p1
+
+    :pswitch_3
+    check-cast p2, Lcom/appbrain/e/q$j;
+
+    check-cast p3, Lcom/appbrain/h/a$c;
+
+    invoke-direct {p0}, Lcom/appbrain/h/a$c;->g()Z
+
+    move-result p1
+
+    iget-object v0, p0, Lcom/appbrain/h/a$c;->e:Ljava/lang/String;
+
+    invoke-direct {p3}, Lcom/appbrain/h/a$c;->g()Z
+
+    move-result v1
+
+    iget-object v2, p3, Lcom/appbrain/h/a$c;->e:Ljava/lang/String;
+
+    invoke-interface {p2, p1, v0, v1, v2}, Lcom/appbrain/e/q$j;->a(ZLjava/lang/String;ZLjava/lang/String;)Ljava/lang/String;
+
+    move-result-object p1
+
+    iput-object p1, p0, Lcom/appbrain/h/a$c;->e:Ljava/lang/String;
+
+    invoke-direct {p0}, Lcom/appbrain/h/a$c;->h()Z
+
+    move-result p1
+
+    iget v0, p0, Lcom/appbrain/h/a$c;->f:I
+
+    invoke-direct {p3}, Lcom/appbrain/h/a$c;->h()Z
+
+    move-result v1
+
+    iget v2, p3, Lcom/appbrain/h/a$c;->f:I
+
+    invoke-interface {p2, p1, v0, v1, v2}, Lcom/appbrain/e/q$j;->a(ZIZI)I
+
+    move-result p1
+
+    iput p1, p0, Lcom/appbrain/h/a$c;->f:I
+
+    invoke-direct {p0}, Lcom/appbrain/h/a$c;->i()Z
+
+    move-result v1
+
+    iget-wide v2, p0, Lcom/appbrain/h/a$c;->g:J
+
+    invoke-direct {p3}, Lcom/appbrain/h/a$c;->i()Z
+
+    move-result v4
+
+    iget-wide v5, p3, Lcom/appbrain/h/a$c;->g:J
+
+    move-object v0, p2
+
+    invoke-interface/range {v0 .. v6}, Lcom/appbrain/e/q$j;->a(ZJZJ)J
+
+    move-result-wide v0
+
+    iput-wide v0, p0, Lcom/appbrain/h/a$c;->g:J
+
+    invoke-virtual {p0}, Lcom/appbrain/h/a$c;->a()Z
+
+    move-result p1
+
+    iget v0, p0, Lcom/appbrain/h/a$c;->h:I
+
+    invoke-virtual {p3}, Lcom/appbrain/h/a$c;->a()Z
+
+    move-result v1
+
+    iget v2, p3, Lcom/appbrain/h/a$c;->h:I
+
+    invoke-interface {p2, p1, v0, v1, v2}, Lcom/appbrain/e/q$j;->a(ZIZI)I
+
+    move-result p1
+
+    iput p1, p0, Lcom/appbrain/h/a$c;->h:I
+
+    invoke-direct {p0}, Lcom/appbrain/h/a$c;->v()Z
+
+    move-result p1
+
+    iget-object v0, p0, Lcom/appbrain/h/a$c;->i:Ljava/lang/String;
+
+    invoke-direct {p3}, Lcom/appbrain/h/a$c;->v()Z
+
+    move-result v1
+
+    iget-object v2, p3, Lcom/appbrain/h/a$c;->i:Ljava/lang/String;
+
+    invoke-interface {p2, p1, v0, v1, v2}, Lcom/appbrain/e/q$j;->a(ZLjava/lang/String;ZLjava/lang/String;)Ljava/lang/String;
+
+    move-result-object p1
+
+    iput-object p1, p0, Lcom/appbrain/h/a$c;->i:Ljava/lang/String;
+
+    invoke-direct {p0}, Lcom/appbrain/h/a$c;->w()Z
+
+    move-result v1
+
+    iget-wide v2, p0, Lcom/appbrain/h/a$c;->j:J
+
+    invoke-direct {p3}, Lcom/appbrain/h/a$c;->w()Z
+
+    move-result v4
+
+    iget-wide v5, p3, Lcom/appbrain/h/a$c;->j:J
+
+    move-object v0, p2
+
+    invoke-interface/range {v0 .. v6}, Lcom/appbrain/e/q$j;->a(ZJZJ)J
+
+    move-result-wide v0
+
+    iput-wide v0, p0, Lcom/appbrain/h/a$c;->j:J
+
+    invoke-direct {p0}, Lcom/appbrain/h/a$c;->x()Z
+
+    move-result p1
+
+    iget v0, p0, Lcom/appbrain/h/a$c;->k:I
+
+    invoke-direct {p3}, Lcom/appbrain/h/a$c;->x()Z
+
+    move-result v1
+
+    iget v2, p3, Lcom/appbrain/h/a$c;->k:I
+
+    invoke-interface {p2, p1, v0, v1, v2}, Lcom/appbrain/e/q$j;->a(ZIZI)I
+
+    move-result p1
+
+    iput p1, p0, Lcom/appbrain/h/a$c;->k:I
+
+    iget-object p1, p0, Lcom/appbrain/h/a$c;->l:Lcom/appbrain/e/s$d;
+
+    iget-object v0, p3, Lcom/appbrain/h/a$c;->l:Lcom/appbrain/e/s$d;
+
+    invoke-interface {p2, p1, v0}, Lcom/appbrain/e/q$j;->a(Lcom/appbrain/e/s$d;Lcom/appbrain/e/s$d;)Lcom/appbrain/e/s$d;
+
+    move-result-object p1
+
+    iput-object p1, p0, Lcom/appbrain/h/a$c;->l:Lcom/appbrain/e/s$d;
+
+    sget-object p1, Lcom/appbrain/e/q$h;->a:Lcom/appbrain/e/q$h;
+
+    if-ne p2, p1, :cond_11
+
+    iget p1, p0, Lcom/appbrain/h/a$c;->d:I
+
+    iget p2, p3, Lcom/appbrain/h/a$c;->d:I
+
+    or-int/2addr p1, p2
+
+    iput p1, p0, Lcom/appbrain/h/a$c;->d:I
+
+    :cond_11
+    return-object p0
+
+    :pswitch_4
+    new-instance p1, Lcom/appbrain/h/a$c$a;
+
+    invoke-direct {p1, v0}, Lcom/appbrain/h/a$c$a;-><init>(B)V
+
+    return-object p1
+
+    :pswitch_5
+    iget-object p1, p0, Lcom/appbrain/h/a$c;->l:Lcom/appbrain/e/s$d;
+
+    invoke-interface {p1}, Lcom/appbrain/e/s$d;->b()V
+
+    const/4 p1, 0x0
+
+    return-object p1
+
+    :pswitch_6
+    sget-object p1, Lcom/appbrain/h/a$c;->m:Lcom/appbrain/h/a$c;
+
+    return-object p1
+
+    :pswitch_7
+    new-instance p1, Lcom/appbrain/h/a$c;
+
+    invoke-direct {p1}, Lcom/appbrain/h/a$c;-><init>()V
+
+    return-object p1
+
+    nop
+
+    :pswitch_data_0
+    .packed-switch 0x1
+        :pswitch_7
+        :pswitch_6
+        :pswitch_5
+        :pswitch_4
+        :pswitch_3
+        :pswitch_1
+        :pswitch_2
+        :pswitch_0
+    .end packed-switch
+.end method
+
+.method public final a(Lcom/appbrain/e/l;)V
+    .locals 4
+
+    iget v0, p0, Lcom/appbrain/h/a$c;->d:I
+
+    const/4 v1, 0x1
+
+    and-int/2addr v0, v1
+
+    if-ne v0, v1, :cond_0
+
+    iget-object v0, p0, Lcom/appbrain/h/a$c;->e:Ljava/lang/String;
+
+    invoke-virtual {p1, v1, v0}, Lcom/appbrain/e/l;->a(ILjava/lang/String;)V
+
+    :cond_0
+    iget v0, p0, Lcom/appbrain/h/a$c;->d:I
+
+    const/4 v1, 0x2
+
+    and-int/2addr v0, v1
+
+    if-ne v0, v1, :cond_1
+
+    iget v0, p0, Lcom/appbrain/h/a$c;->f:I
+
+    invoke-virtual {p1, v1, v0}, Lcom/appbrain/e/l;->b(II)V
+
+    :cond_1
+    iget v0, p0, Lcom/appbrain/h/a$c;->d:I
+
+    const/4 v1, 0x4
+
+    and-int/2addr v0, v1
+
+    if-ne v0, v1, :cond_2
+
+    iget-wide v2, p0, Lcom/appbrain/h/a$c;->g:J
+
+    const/4 v0, 0x3
+
+    invoke-virtual {p1, v0, v2, v3}, Lcom/appbrain/e/l;->a(IJ)V
+
+    :cond_2
+    iget v0, p0, Lcom/appbrain/h/a$c;->d:I
+
+    const/16 v2, 0x8
+
+    and-int/2addr v0, v2
+
+    if-ne v0, v2, :cond_3
+
+    iget v0, p0, Lcom/appbrain/h/a$c;->h:I
+
+    invoke-virtual {p1, v1, v0}, Lcom/appbrain/e/l;->b(II)V
+
+    :cond_3
+    iget v0, p0, Lcom/appbrain/h/a$c;->d:I
+
+    const/16 v1, 0x10
+
+    and-int/2addr v0, v1
+
+    if-ne v0, v1, :cond_4
+
+    const/4 v0, 0x5
+
+    iget-object v1, p0, Lcom/appbrain/h/a$c;->i:Ljava/lang/String;
+
+    invoke-virtual {p1, v0, v1}, Lcom/appbrain/e/l;->a(ILjava/lang/String;)V
+
+    :cond_4
+    iget v0, p0, Lcom/appbrain/h/a$c;->d:I
+
+    const/16 v1, 0x20
+
+    and-int/2addr v0, v1
+
+    if-ne v0, v1, :cond_5
+
+    iget-wide v0, p0, Lcom/appbrain/h/a$c;->j:J
+
+    const/4 v3, 0x6
+
+    invoke-virtual {p1, v3, v0, v1}, Lcom/appbrain/e/l;->a(IJ)V
+
+    :cond_5
+    iget v0, p0, Lcom/appbrain/h/a$c;->d:I
+
+    const/16 v1, 0x40
+
+    and-int/2addr v0, v1
+
+    if-ne v0, v1, :cond_6
+
+    const/4 v0, 0x7
+
+    iget v1, p0, Lcom/appbrain/h/a$c;->k:I
+
+    invoke-virtual {p1, v0, v1}, Lcom/appbrain/e/l;->b(II)V
+
+    :cond_6
+    const/4 v0, 0x0
+
+    :goto_0
+    iget-object v1, p0, Lcom/appbrain/h/a$c;->l:Lcom/appbrain/e/s$d;
+
+    invoke-interface {v1}, Lcom/appbrain/e/s$d;->size()I
+
+    move-result v1
+
+    if-ge v0, v1, :cond_7
+
+    iget-object v1, p0, Lcom/appbrain/h/a$c;->l:Lcom/appbrain/e/s$d;
+
+    invoke-interface {v1, v0}, Lcom/appbrain/e/s$d;->b(I)I
+
+    move-result v1
+
+    invoke-virtual {p1, v2, v1}, Lcom/appbrain/e/l;->b(II)V
+
+    add-int/lit8 v0, v0, 0x1
+
+    goto :goto_0
+
+    :cond_7
+    iget-object v0, p0, Lcom/appbrain/h/a$c;->b:Lcom/appbrain/e/c;
+
+    invoke-virtual {v0, p1}, Lcom/appbrain/e/c;->a(Lcom/appbrain/e/l;)V
+
+    return-void
+.end method
+
+.method public final a()Z
+    .locals 2
+
+    iget v0, p0, Lcom/appbrain/h/a$c;->d:I
+
+    const/16 v1, 0x8
+
+    and-int/2addr v0, v1
+
+    if-ne v0, v1, :cond_0
+
+    const/4 v0, 0x1
+
+    return v0
+
+    :cond_0
+    const/4 v0, 0x0
+
+    return v0
+.end method
+
+.method public final b()I
+    .locals 1
+
+    iget v0, p0, Lcom/appbrain/h/a$c;->h:I
+
+    return v0
+.end method
+
+.method public final d()I
+    .locals 7
+
+    iget v0, p0, Lcom/appbrain/h/a$c;->c:I
+
+    const/4 v1, -0x1
+
+    if-eq v0, v1, :cond_0
+
+    return v0
+
+    :cond_0
+    iget v0, p0, Lcom/appbrain/h/a$c;->d:I
+
+    const/4 v1, 0x1
+
+    and-int/2addr v0, v1
+
+    const/4 v2, 0x0
+
+    if-ne v0, v1, :cond_1
+
+    iget-object v0, p0, Lcom/appbrain/h/a$c;->e:Ljava/lang/String;
+
+    invoke-static {v1, v0}, Lcom/appbrain/e/l;->b(ILjava/lang/String;)I
+
+    move-result v0
+
+    add-int/2addr v0, v2
+
+    goto :goto_0
+
+    :cond_1
+    const/4 v0, 0x0
+
+    :goto_0
+    iget v3, p0, Lcom/appbrain/h/a$c;->d:I
+
+    const/4 v4, 0x2
+
+    and-int/2addr v3, v4
+
+    if-ne v3, v4, :cond_2
+
+    iget v3, p0, Lcom/appbrain/h/a$c;->f:I
+
+    invoke-static {v4, v3}, Lcom/appbrain/e/l;->d(II)I
+
+    move-result v3
+
+    add-int/2addr v0, v3
+
+    :cond_2
+    iget v3, p0, Lcom/appbrain/h/a$c;->d:I
+
+    const/4 v4, 0x4
+
+    and-int/2addr v3, v4
+
+    if-ne v3, v4, :cond_3
+
+    const/4 v3, 0x3
+
+    iget-wide v5, p0, Lcom/appbrain/h/a$c;->g:J
+
+    invoke-static {v3, v5, v6}, Lcom/appbrain/e/l;->c(IJ)I
+
+    move-result v3
+
+    add-int/2addr v0, v3
+
+    :cond_3
+    iget v3, p0, Lcom/appbrain/h/a$c;->d:I
+
+    const/16 v5, 0x8
+
+    and-int/2addr v3, v5
+
+    if-ne v3, v5, :cond_4
+
+    iget v3, p0, Lcom/appbrain/h/a$c;->h:I
+
+    invoke-static {v4, v3}, Lcom/appbrain/e/l;->d(II)I
+
+    move-result v3
+
+    add-int/2addr v0, v3
+
+    :cond_4
+    iget v3, p0, Lcom/appbrain/h/a$c;->d:I
+
+    const/16 v4, 0x10
+
+    and-int/2addr v3, v4
+
+    if-ne v3, v4, :cond_5
+
+    const/4 v3, 0x5
+
+    iget-object v4, p0, Lcom/appbrain/h/a$c;->i:Ljava/lang/String;
+
+    invoke-static {v3, v4}, Lcom/appbrain/e/l;->b(ILjava/lang/String;)I
+
+    move-result v3
+
+    add-int/2addr v0, v3
+
+    :cond_5
+    iget v3, p0, Lcom/appbrain/h/a$c;->d:I
+
+    const/16 v4, 0x20
+
+    and-int/2addr v3, v4
+
+    if-ne v3, v4, :cond_6
+
+    const/4 v3, 0x6
+
+    iget-wide v4, p0, Lcom/appbrain/h/a$c;->j:J
+
+    invoke-static {v3, v4, v5}, Lcom/appbrain/e/l;->c(IJ)I
+
+    move-result v3
+
+    add-int/2addr v0, v3
+
+    :cond_6
+    iget v3, p0, Lcom/appbrain/h/a$c;->d:I
+
+    const/16 v4, 0x40
+
+    and-int/2addr v3, v4
+
+    if-ne v3, v4, :cond_7
+
+    const/4 v3, 0x7
+
+    iget v4, p0, Lcom/appbrain/h/a$c;->k:I
+
+    invoke-static {v3, v4}, Lcom/appbrain/e/l;->d(II)I
+
+    move-result v3
+
+    add-int/2addr v0, v3
+
+    :cond_7
+    const/4 v3, 0x0
+
+    :goto_1
+    iget-object v4, p0, Lcom/appbrain/h/a$c;->l:Lcom/appbrain/e/s$d;
+
+    invoke-interface {v4}, Lcom/appbrain/e/s$d;->size()I
+
+    move-result v4
+
+    if-ge v2, v4, :cond_8
+
+    iget-object v4, p0, Lcom/appbrain/h/a$c;->l:Lcom/appbrain/e/s$d;
+
+    invoke-interface {v4, v2}, Lcom/appbrain/e/s$d;->b(I)I
+
+    move-result v4
+
+    invoke-static {v4}, Lcom/appbrain/e/l;->i(I)I
+
+    move-result v4
+
+    add-int/2addr v3, v4
+
+    add-int/lit8 v2, v2, 0x1
+
+    goto :goto_1
+
+    :cond_8
+    add-int/2addr v0, v3
+
+    iget-object v2, p0, Lcom/appbrain/h/a$c;->l:Lcom/appbrain/e/s$d;
+
+    invoke-interface {v2}, Ljava/util/List;->size()I
+
+    move-result v2
+
+    mul-int/lit8 v2, v2, 0x1
+
+    add-int/2addr v0, v2
+
+    iget-object v1, p0, Lcom/appbrain/h/a$c;->b:Lcom/appbrain/e/c;
+
+    invoke-virtual {v1}, Lcom/appbrain/e/c;->d()I
+
+    move-result v1
+
+    add-int/2addr v0, v1
+
+    iput v0, p0, Lcom/appbrain/h/a$c;->c:I
+
+    return v0
+.end method

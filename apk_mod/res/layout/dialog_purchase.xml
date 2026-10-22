@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:paddingTop="12.0dp" android:paddingBottom="12.0dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:layout_gravity="start" android:orientation="vertical" android:id="@id/button_monthly_payment" android:background="?android:selectableItemBackground" android:paddingTop="6.0dp" android:paddingBottom="8.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="24.0dp" android:paddingEnd="24.0dp">
+            <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/color_accent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dialog_purchase_button_monthly_payment_title" android:textAllCaps="true" android:textAlignment="viewStart" />
+            <TextView android:textSize="14.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dialog_purchase_button_monthly_payment_text" android:textAlignment="viewStart" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="start" android:orientation="vertical" android:id="@id/button_annual_payment" android:background="?android:selectableItemBackground" android:paddingTop="6.0dp" android:paddingBottom="8.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="24.0dp" android:paddingEnd="24.0dp">
+            <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/color_accent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dialog_purchase_button_annual_payment_title" android:textAllCaps="true" android:textAlignment="viewStart" />
+            <TextView android:textSize="14.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dialog_purchase_button_annual_payment_text" android:textAlignment="viewStart" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="start" android:orientation="vertical" android:id="@id/button_onetime_payment" android:background="?android:selectableItemBackground" android:paddingTop="6.0dp" android:paddingBottom="8.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="24.0dp" android:paddingEnd="24.0dp">
+            <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/color_accent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dialog_purchase_button_onetime_payment_title" android:textAllCaps="true" android:textAlignment="viewStart" />
+            <TextView android:textSize="14.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dialog_purchase_button_onetime_payment_text" android:textAlignment="viewStart" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

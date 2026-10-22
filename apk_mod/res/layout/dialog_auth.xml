@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:paddingTop="8.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:overScrollMode="never"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="24.0dp" android:paddingEnd="24.0dp">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="?android:textColorPrimary" android:id="@id/login_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dialog_authorization_label_login" />
+        <EditText android:textAppearance="?android:textAppearanceMedium" android:textColor="?android:textColorPrimary" android:id="@id/login_edit" android:layout_width="match_parent" android:layout_height="wrap_content" android:scrollHorizontally="true" android:singleLine="true" android:inputType="text" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="?android:textColorPrimary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dialog_authorization_label_password" />
+        <EditText android:textAppearance="?android:textAppearanceMedium" android:textColor="?android:textColorPrimary" android:id="@id/password_edit" android:layout_width="match_parent" android:layout_height="wrap_content" android:scrollHorizontally="true" android:singleLine="true" android:inputType="textPassword" />
+    </LinearLayout>
+</ScrollView>

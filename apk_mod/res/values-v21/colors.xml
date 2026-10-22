@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_background">#fffdfdfd</color>
+    <color name="color_normal">#ff909090</color>
+    <color name="color_panel">#ffeeeeee</color>
+    <color name="color_panel_border">#ffdddddd</color>
+    <color name="notification_action_color_filter">@color/androidx_core_secondary_text_default_material_light</color>
+</resources>

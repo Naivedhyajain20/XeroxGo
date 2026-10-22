@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="androidx_core_ripple_material_light">#1f000000</color>
+    <color name="androidx_core_secondary_text_default_material_light">#8a000000</color>
+    <color name="browser_actions_bg_grey">#f5f5f5</color>
+    <color name="browser_actions_divider_color">#1e000000</color>
+    <color name="browser_actions_text_color">#de000000</color>
+    <color name="browser_actions_title_color">#646464</color>
+    <color name="color_accent">#ff2563eb</color>
+    <color name="color_background">#fff1f5f9</color>
+    <color name="color_normal">#ff64748b</color>
+    <color name="color_panel">#ffffffff</color>
+    <color name="color_panel_border">#ffe2e8f0</color>
+    <color name="color_primary">#ff2563eb</color>
+    <color name="color_primary_dark">#ff1e40af</color>
+    <color name="notification_action_color_filter">#ffffffff</color>
+    <color name="notification_icon_bg_color">#ff9e9e9e</color>
+</resources>

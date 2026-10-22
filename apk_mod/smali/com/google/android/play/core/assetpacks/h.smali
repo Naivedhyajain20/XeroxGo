@@ -1,0 +1,14 @@
+.class public interface abstract Lcom/google/android/play/core/assetpacks/h;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# virtual methods
+.method public abstract a()Lcom/google/android/play/core/assetpacks/c;
+.end method
+
+.method public abstract a(Lcom/google/android/play/core/assetpacks/AssetPackExtractionService;)V
+.end method
+
+.method public abstract a(Lcom/google/android/play/core/assetpacks/ExtractionForegroundService;)V
+.end method

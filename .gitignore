@@ -1,0 +1,30 @@
+# macOS System Files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Intermediate Build Artifacts & Temporary Files
+*.tmp
+*.log
+*.bak
+*.idsig
+build/
+dist/
+signed_output/
+apk_mod/build/
+*.apk_built.apk
+apk_mod_built.apk
+apk_xeroxgo_built.apk
+uber-apk-signer.jar
+
+# Original unmodded base APK
+com.arshiprint_4.4.6.apk
+
+# Duplicate APK output (keep XeroxGo.apk as primary)
+M1005_OTG_Printer_AdFree.apk
+
+# Decompiled JADX reference sources (can be regenerated with jadx)
+decompiled_src/

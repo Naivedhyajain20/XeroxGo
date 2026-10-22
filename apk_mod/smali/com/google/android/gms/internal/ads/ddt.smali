@@ -1,0 +1,54 @@
+.class final Lcom/google/android/gms/internal/ads/ddt;
+.super Ljava/util/TimerTask;
+.source "SourceFile"
+
+
+# instance fields
+.field final synthetic a:Landroid/app/AlertDialog;
+
+.field final synthetic b:Ljava/util/Timer;
+
+.field final synthetic c:Lcom/google/android/gms/ads/internal/overlay/n;
+
+
+# direct methods
+.method constructor <init>(Landroid/app/AlertDialog;Ljava/util/Timer;Lcom/google/android/gms/ads/internal/overlay/n;)V
+    .locals 0
+
+    iput-object p1, p0, Lcom/google/android/gms/internal/ads/ddt;->a:Landroid/app/AlertDialog;
+
+    iput-object p2, p0, Lcom/google/android/gms/internal/ads/ddt;->b:Ljava/util/Timer;
+
+    iput-object p3, p0, Lcom/google/android/gms/internal/ads/ddt;->c:Lcom/google/android/gms/ads/internal/overlay/n;
+
+    .line 1
+    invoke-direct {p0}, Ljava/util/TimerTask;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final run()V
+    .locals 1
+
+    iget-object v0, p0, Lcom/google/android/gms/internal/ads/ddt;->a:Landroid/app/AlertDialog;
+
+    .line 1
+    invoke-virtual {v0}, Landroid/app/AlertDialog;->dismiss()V
+
+    iget-object v0, p0, Lcom/google/android/gms/internal/ads/ddt;->b:Ljava/util/Timer;
+
+    .line 2
+    invoke-virtual {v0}, Ljava/util/Timer;->cancel()V
+
+    iget-object v0, p0, Lcom/google/android/gms/internal/ads/ddt;->c:Lcom/google/android/gms/ads/internal/overlay/n;
+
+    if-eqz v0, :cond_0
+
+    .line 3
+    invoke-virtual {v0}, Lcom/google/android/gms/ads/internal/overlay/n;->a()V
+
+    :cond_0
+    return-void
+.end method

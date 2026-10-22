@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:paddingTop="8.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:overScrollMode="never"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="20.0dp" android:paddingEnd="20.0dp">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dp">
+            <Button android:textSize="18.0sp" android:textColor="?android:textColorPrimary" android:id="@id/less" android:layout_width="50.0dp" android:layout_height="wrap_content" android:text="-" />
+            <EditText android:textSize="18.0sp" android:textColor="?android:textColorPrimary" android:gravity="center" android:id="@id/copies" android:layout_width="50.0dp" android:layout_height="wrap_content" android:text="1" android:inputType="number" />
+            <Button android:textSize="18.0sp" android:textColor="?android:textColorPrimary" android:id="@id/more" android:layout_width="50.0dp" android:layout_height="wrap_content" android:text="+" />
+        </LinearLayout>
+        <CheckBox android:textAppearance="?android:textAppearanceMedium" android:textColor="?android:textColorPrimary" android:ellipsize="end" android:id="@id/collate" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/item_min_height" android:text="@string/menu_settings_copies_collate" android:maxLines="2" android:paddingStart="8.0dp" android:paddingEnd="0.0dp" />
+    </LinearLayout>
+</ScrollView>

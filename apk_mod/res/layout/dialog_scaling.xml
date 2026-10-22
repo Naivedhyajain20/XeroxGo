@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:paddingTop="8.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:overScrollMode="never"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="20.0dp" android:paddingEnd="20.0dp">
+        <RadioGroup android:orientation="vertical" android:id="@id/scaling" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RadioButton android:textAppearance="?android:textAppearanceMedium" android:textColor="?android:textColorPrimary" android:ellipsize="end" android:id="@id/scaling_actual" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/item_min_height" android:text="@string/menu_page_scaling_actual_size" android:maxLines="2" android:paddingStart="8.0dp" android:paddingEnd="0.0dp" />
+            <RadioButton android:textAppearance="?android:textAppearanceMedium" android:textColor="?android:textColorPrimary" android:ellipsize="end" android:id="@id/scaling_fit" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/item_min_height" android:text="@string/menu_page_scaling_scale_to_fit" android:maxLines="2" android:paddingStart="8.0dp" android:paddingEnd="0.0dp" />
+            <RadioButton android:textAppearance="?android:textAppearanceMedium" android:textColor="?android:textColorPrimary" android:ellipsize="end" android:id="@id/scaling_shrink" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/item_min_height" android:text="@string/menu_page_scaling_shrink_to_fit" android:maxLines="2" android:paddingStart="8.0dp" android:paddingEnd="0.0dp" />
+            <RadioButton android:textAppearance="?android:textAppearanceMedium" android:textColor="?android:textColorPrimary" android:ellipsize="end" android:id="@id/scaling_custom" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/item_min_height" android:text="@string/menu_page_scaling_custom_scaling" android:maxLines="2" android:paddingStart="8.0dp" android:paddingEnd="0.0dp" />
+        </RadioGroup>
+        <LinearLayout android:orientation="horizontal" android:id="@id/scaling_custom_panel" android:paddingBottom="4.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <EditText android:textAppearance="?android:textAppearanceMedium" android:textSize="18.0sp" android:textColor="?android:textColorPrimary" android:id="@id/scaling_custom_data" android:layout_width="70.0dp" android:layout_height="wrap_content" android:minHeight="@dimen/item_min_height" android:scrollHorizontally="true" android:singleLine="true" android:digits="0123456789" android:inputType="number" android:layout_marginStart="36.0dp" android:layout_marginEnd="0.0dp" />
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="18.0sp" android:textColor="?android:textColorPrimary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="%" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
